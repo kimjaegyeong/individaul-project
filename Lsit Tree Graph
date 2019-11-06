@@ -18,7 +18,7 @@ adjacency list 배열에 노드들을 나열하고 관계를 linked lisk로 표�
 adjacency matrix는 어떠한 노드들이 연결되어 있는지, 연결되지 않았는지 1과 0의 값을 매트릭스에 삽입한다.   
 adjacency list는 어떠한 노드에 연결되어 있는 노드들을 순서 상관없이 List로 나열한다. 
 
-Linked List의 예시  
+*****************Linked List의 예시*****************
 #include <stdio.h>
 #include <stdlib.h>    
 
@@ -55,7 +55,7 @@ int main()
     return 0;
 }
   
-Binary Tree의 예시    
+*****************Binary Tree의 예시***************** 
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -158,7 +158,7 @@ int main()
     BST_print(root);
 }
   
-Graph 예시:  
+*****************Graph 예시*****************
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
