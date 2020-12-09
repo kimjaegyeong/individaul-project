@@ -19,6 +19,7 @@ adjacency matrix는 어떠한 노드들이 연결되어 있는지, 연결되지 
 adjacency list는 어떠한 노드에 연결되어 있는 노드들을 순서 상관없이 List로 나열한다. 
 
 *****************Linked List의 예시*****************
+```
 #include <stdio.h>
 #include <stdlib.h>    
 
@@ -54,8 +55,9 @@ int main()
 
     return 0;
 }
-  
+  ```
 *****************Binary Tree의 예시***************** 
+```
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -157,8 +159,9 @@ int main()
 
     BST_print(root);
 }
-  
+  ```
 *****************Graph 예시*****************
+```
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -218,3 +221,4 @@ void printGraph(graphType *graph)
 
 	return 0;
 }
+```
